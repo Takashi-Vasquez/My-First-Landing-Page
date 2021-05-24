@@ -1,0 +1,453 @@
+/* ==========================================================================
+   Author's custom styles
+   VÁSQUEZ MIRANDA, HUGO
+   ========================================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+body>section {
+    clear: both;
+    padding: 50px 0;
+}
+
+h1,
+h2 {
+    font-family: 'Newsreader', serif;
+}
+
+h1 {
+    color: #0c243d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+h2 {
+    color: #0c243d;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+h2.col-md-offset-4.center {
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h2.parallax {
+    color: white;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 3.6em;
+    text-shadow: 0px 7px 8px black;
+    -webkit-text-shadow: 0px 7px 8px black;
+    -moz-text-shadow: 0px 7px 8px black;
+}
+
+.separador {
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #0c243d;
+    margin-bottom: 30px;
+}
+
+.grisBG {
+    background-color: #f5f5f5;
+}
+
+.azulBG {
+    background-color: #123456;
+}
+
+
+/**ANIMACONES**/
+
+.anima1,
+.anima2,
+.anima3,
+.anima4,
+.anima5,
+.anima6,
+.anima7,
+.anima8,
+.anima9,
+.anima10,
+.anima11,
+.anima12,
+.anima13,
+img#appImanimeagen,
+img#appCentral {
+    opacity: 0;
+}
+
+
+/**MENU**/
+
+.navbar-default {
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    background-image: none;
+    min-height: 90px;
+    padding-top: 20px;
+}
+
+.nav>li>a {
+    text-transform: uppercase;
+    font-family: 'Newsreader', serif;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-shadow: 1px 1px 1px black;
+    -moz-text-shadow: 1px 1px 1px black;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+}
+
+.efecto {
+    transition: 0.5s ease;
+    background-color: #0c243d;
+    min-height: 30px;
+    box-shadow: 0 0 10px black;
+    padding-top: 0;
+}
+
+.normal {
+    transition: 1s ease;
+}
+
+.anima2 {
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+
+.anima3 {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+section#caracteristicas .icono.anima1 {
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+
+section#caracteristicas .icono.anima2 {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+
+/**COLOR PRINCIPAL**/
+
+section#principal {
+    min-height: 700px;
+    padding: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#294159+0,0c223b+100 */
+    background: #294159;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #294159 0%, #0c223b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #294159 0%, #0c223b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #294159 0%, #0c223b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#294159', endColorstr='#0c223b', GradientType=0);
+    /* IE6-9 */
+}
+
+.carousel.slide {
+    padding-top: 100px;
+}
+
+section#principal img {
+    margin: 0 auto;
+}
+
+
+/**COLOR APP**/
+
+section#cell .social {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #123456;
+    margin: 0 auto;
+    line-height: 180px;
+}
+
+section#cell .social i {
+    color: #ffffff;
+    font-size: 3em;
+}
+
+
+/**CARACTERISCTICA**/
+
+section#caracteristicas p {
+    font-size: .9em;
+    color: #858585;
+}
+
+section#caracteristicas img#appCentral {
+    margin: 5em auto;
+}
+
+section#caracteristicas .caracteristica {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+section#caracteristicas .icono {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #123456;
+    margin: 0 auto;
+    line-height: 140px;
+    text-align: center;
+    color: #ffffff;
+}
+
+section#caracteristicas .icono i {
+    color: #ffffff;
+    font-size: 2.6em;
+}
+
+
+/**PANTALLAS**/
+
+div.modal-body {
+    text-align: center;
+}
+
+div.modal-body img {
+    max-height: 90%;
+}
+
+
+/**PARALLAX**/
+
+section#parallax {
+    height: 500px;
+    background-image: url("../img/PantallaUltra.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/** DESCARGAR **/
+
+section#fotografia div.contenidoDescarga {
+    height: 700px;
+}
+
+section#fotografia div.phone {
+    width: 50%;
+    float: left;
+    height: 100%;
+    box-shadow: inset -7px -7px -12px -2px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: inset -7px -7px -12px -2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: inset -7px -7px -12px -2px rgba(0, 0, 0, .15);
+    z-index: 1;
+    text-align: center;
+}
+
+section#fotografia div.derechaVacio {
+    width: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    height: 100%;
+    z-index: 2;
+    /*background-image: url("../img/Colors.png");*/
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 20px;
+}
+
+section#fotografia .fotografia {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+section#fotografia .plataformas>div {
+    border-radius: 20px;
+    border: 3px solid #0c243d;
+    padding: 11px 0;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 50px;
+    color: #0c243d;
+}
+
+section#fotografia .plataformas>div span {
+    font-weight: bold;
+}
+
+section#fotografia .col-md-5 i {
+    color: #0c243d;
+    font-size: 2.6em;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+
+/** SOPORTE **/
+
+section#soporte h1 {
+    color: #ffffff;
+}
+
+section#soporte p {
+    color: #ffffff;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+section#soporte .separador {
+    background-color: #ffffff;
+}
+
+section#soporte .campos {
+    background-color: #123456;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+section#soporte form {
+    margin-top: 30px;
+}
+
+section#soporte input {
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+section#soporte textarea {
+    min-height: 200px;
+}
+
+section#soporte .btn.btn-default {
+    /*background-color: white;*/
+    border-radius: 14px;
+    padding: 5px 43px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+div#correcto {
+    display: none;
+    background: white;
+    padding: 7px;
+    text-align: center;
+    border: 4px solid green;
+    font-style: oblique;
+    font-size: 20px;
+    border-radius: 51px;
+}
+
+.has-success .form-control-feedback {
+    color: white;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    right: 21px;
+    top: 7px!important;
+}
+
+.has-error .form-control-feedback {
+    color: black;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.has-error .help-block {
+    color: red;
+    padding: 1px;
+    text-align: center;
+    border: 4px solid maroon;
+    font-style: oblique;
+    font-size: 15px;
+    border-radius: 51px;
+}
+
+@media(max-width:767px) {
+    section#principal {
+        height: auto;
+        min-height: initial;
+    }
+    .navbar-default .navbar-collapse {
+        background-color: #123156;
+    }
+    section#caracteristicas .caracteristica {
+        min-height: 150px;
+        text-align: center;
+    }
+    section#fotografia .plataformas>div {
+        margin-bottom: 20px;
+        padding: 21px 0;
+    }
+    section#fotografia div.phone {
+        height: auto;
+    }
+    section#fotografia div.contenidoDescarga {
+        height: auto;
+    }
+    secttion#parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media(max-width:500px) {
+    section#fotografia div.phone {
+        width: 100%;
+    }
+    section#caracteristicas>section.col-xs-6 {
+        width: 100%!important;
+    }
+    section#caracteristicas>.col-xs-6 {
+        width: 100%;
+    }
+    section#caracteristicas .caracteristica {
+        min-height: initial;
+        text-align: center;
+    }
+    section#caracteristicas .icono {
+        display: none;
+    }
+    section#fotografia div.derechaVacio {
+        display: none;
+    }
+    section#fotografia .fotografia {
+        position: relative;
+    }
+    div.fotografia .col-xs-offset-6 {
+        width: 100%;
+        margin: 0;
+    }
+}

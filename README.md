@@ -8,9 +8,11 @@ Author URL: https://github.com/TakashiV97
 
 Description: landing Page Wordpress
 
+Version: 1.0 
+
 Licence: GNU General Public Licence v2 or Later
 
-Version: 1.0 
+Licence URL: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Tags:Landing, single page, css3, html5, Bootstrap, JavaScript, Scroll
 
